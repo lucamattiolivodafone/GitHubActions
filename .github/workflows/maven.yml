@@ -38,6 +38,7 @@ jobs:
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/planview:latest 
         cd /tmp/Docker/
         kubectl apply -f .
+        
   deploy:
     runs-on: ubuntu-latest
     needs: build
