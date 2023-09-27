@@ -69,4 +69,4 @@ jobs:
         '*.yml' => /tmp/Docker/
        last_ssh: |
         cd /tmp/Docker/
-        sudo kubectl apply -f deploy.yml
+        sudo kubectl apply -f deployment.yml
